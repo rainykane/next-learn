@@ -1,0 +1,536 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 warn pnpm": {
+    "message": "Unsupported engine: wanted: {\"node\":\">=18.17.0\"} (current: {\"node\":\"v18.15.0\",\"pnpm\":\"7.1.9\"})",
+    "prefix": "/Users/kane/Documents/project/demo/nextjs-dashboard"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "scripts": {
+        "build": "next build",
+        "dev": "next dev",
+        "prettier": "prettier --write --ignore-unknown .",
+        "prettier:check": "prettier --check --ignore-unknown .",
+        "start": "next start"
+      },
+      "dependencies": {
+        "@heroicons/react": "^2.0.18",
+        "@tailwindcss/forms": "^0.5.7",
+        "@types/node": "20.5.7",
+        "@vercel/postgres": "^0.5.0",
+        "autoprefixer": "10.4.15",
+        "bcrypt": "^5.1.1",
+        "clsx": "^2.0.0",
+        "next": "^14.0.2",
+        "postcss": "8.4.31",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "tailwindcss": "3.3.3",
+        "typescript": "5.2.2",
+        "zod": "^3.22.2"
+      },
+      "devDependencies": {
+        "@types/bcrypt": "^5.0.1",
+        "@types/react": "18.2.21",
+        "@types/react-dom": "18.2.14",
+        "@vercel/style-guide": "^5.0.1",
+        "dotenv": "^16.3.1",
+        "eslint": "^8.52.0",
+        "eslint-config-next": "^14.0.0",
+        "eslint-config-prettier": "9.0.0",
+        "prettier": "^3.0.3",
+        "prettier-plugin-tailwindcss": "0.5.4"
+      },
+      "engines": {
+        "node": ">=18.17.0"
+      }
+    },
+    "prefix": "/Users/kane/Documents/project/demo/nextjs-dashboard"
+  },
+  "3 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/kane/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/kane/Documents/project/demo/nextjs-dashboard/node_modules/.pnpm"
+  },
+  "4 debug pnpm:stage": {
+    "prefix": "/Users/kane/Documents/project/demo/nextjs-dashboard",
+    "stage": "resolution_started"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@types/react/18.2.21",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/react",
+      "rawSpec": "18.2.21"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@types/react/18.2.21",
+    "requester": "/Users/kane/Documents/project/demo/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/autoprefixer/10.4.15",
+    "wanted": {
+      "dependentId": ".",
+      "name": "autoprefixer",
+      "rawSpec": "10.4.15"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/autoprefixer/10.4.15",
+    "requester": "/Users/kane/Documents/project/demo/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@types/node/20.5.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/node",
+      "rawSpec": "20.5.7"
+    }
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@types/node/20.5.7",
+    "requester": "/Users/kane/Documents/project/demo/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@types/react/18.2.21",
+    "requester": "/Users/kane/Documents/project/demo/nextjs-dashboard",
+    "status": "found_in_store"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/autoprefixer/10.4.15",
+    "requester": "/Users/kane/Documents/project/demo/nextjs-dashboard",
+    "status": "found_in_store"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@types/node/20.5.7",
+    "requester": "/Users/kane/Documents/project/demo/nextjs-dashboard",
+    "status": "found_in_store"
+  },
+  "14 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@vercel%2Fstyle-guide"
+  },
+  "15 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/bcrypt"
+  },
+  "16 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/eslint"
+  },
+  "17 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@types%2Fbcrypt"
+  },
+  "18 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/eslint-config-next"
+  },
+  "19 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@heroicons%2Freact"
+  },
+  "20 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "pnpm",
+      "type": "tag"
+    },
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npm.taobao.org/pnpm: request to https://registry.npm.taobao.org/pnpm failed, reason: certificate has expired",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npm.taobao.org/pnpm: request to https://registry.npm.taobao.org/pnpm failed, reason: certificate has expired\n    at RetryOperation._fn (/Users/kane/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:84485:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+    }
+  },
+  "21 debug pnpm": "Using cached meta from /Users/kane/Library/Caches/pnpm/metadata/registry.npm.taobao.org/pnpm.json",
+  "22 debug pnpm:update-check": {
+    "currentVersion": "7.1.9",
+    "latestVersion": "8.7.6"
+  },
+  "23 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/dotenv"
+  },
+  "24 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/prettier-plugin-tailwindcss"
+  },
+  "25 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/prettier"
+  },
+  "26 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@vercel%2Fpostgres"
+  },
+  "27 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/next"
+  },
+  "28 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@types%2Freact-dom"
+  },
+  "29 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/eslint-config-prettier"
+  },
+  "30 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@tailwindcss%2Fforms"
+  },
+  "31 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/clsx"
+  },
+  "32 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/postcss"
+  },
+  "33 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@heroicons%2Freact"
+  },
+  "34 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@vercel%2Fstyle-guide"
+  },
+  "35 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/eslint"
+  },
+  "36 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/eslint-config-next"
+  },
+  "37 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/bcrypt"
+  },
+  "38 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/postcss"
+  },
+  "39 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/dotenv"
+  },
+  "40 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/prettier-plugin-tailwindcss"
+  },
+  "41 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@types%2Freact-dom"
+  },
+  "42 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@types%2Fbcrypt"
+  },
+  "43 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/next"
+  },
+  "44 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@vercel%2Fpostgres"
+  },
+  "45 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/prettier"
+  },
+  "46 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/clsx"
+  },
+  "47 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/eslint-config-prettier"
+  },
+  "48 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@tailwindcss%2Fforms"
+  },
+  "49 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "spec": {
+      "fetchSpec": ">=2.0.18 <3.0.0-0",
+      "name": "@heroicons/react",
+      "type": "range"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npm.taobao.org/@heroicons%2Freact: request to https://registry.npm.taobao.org/@heroicons%2Freact failed, reason: certificate has expired",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://registry.npm.taobao.org/@heroicons%2Freact: request to https://registry.npm.taobao.org/@heroicons%2Freact failed, reason: certificate has expired\n    at RetryOperation._fn (/Users/kane/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:84485:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+    }
+  }
+}
